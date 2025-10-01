@@ -1,5 +1,5 @@
-from calculate_water_use import calculate_water_use
-from get_wheather_info import get_weather_info
+from service.water_info.get_wheather_info import get_weather_info
+from service.water_info.calculate_water_use import calculate_water_use
 
 
 def water_info(lat: float, long: float):
@@ -16,4 +16,4 @@ def water_info(lat: float, long: float):
         day_prevision = calculate_water_use(tmax,tmin,rain,rad,wind)
         data_info.append({"date" : day, "Temperature_mean (°C)" : (tmax + tmin) / 2, "rain (mm)" : rain, "wind (m/s)" : wind})
         prevision.append({"date": day, "water-use" : day_prevision})
-    return data_info, prevision
+    return {"info" : data_info, "prevision": prevision}

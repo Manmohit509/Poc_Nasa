@@ -2,18 +2,7 @@
 
 import csv
 
-from service.models_class import CutureGeneralInfo, WaterRequest
-
-kc_dict = {}
-
-with open('kc_data.csv', newline='', encoding='utf-8') as f:
-    reader = csv.DictReader(f)
-    for row in reader:
-        kc_dict[row['Culture']] = {
-            'initial': float(row['Kc Initial']),
-            'mid': float(row['Kc Moyen']),
-            'final': float(row['Kc Final'])
-        }
+from service.models_class import CutureGeneralInfo, WaterRequest, kc_dict
 
 def calculate_water_use(et0: float, rain: float, kc:float):
     ETc = et0 * kc

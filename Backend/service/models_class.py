@@ -1,3 +1,4 @@
+import csv
 from pydantic import BaseModel, Field
 from enum import Enum
 from typing import List
@@ -19,7 +20,7 @@ class WeatherDay(BaseModel):
     wind_speed_10m_mean_ms: float = Field(..., alias="wind_speed_10m_mean (m/s)")
 
     class Config:
-        allow_population_by_field_name = True
+        validate_by_name = True
         populate_by_name = True
 
 class CutureGeneralInfo(BaseModel):
@@ -30,3 +31,14 @@ class CutureGeneralInfo(BaseModel):
 class WaterRequest(BaseModel):
     weather_info: List[WeatherDay]
     cutureGeneralInfo : CutureGeneralInfo
+
+kc_dict = {}
+
+with open('kc_data.csv', newline='', encoding='utf-8') as f:
+    reader = csv.DictReader(f)
+    for row in reader:
+        kc_dict[row['Culture']] = {
+            'initial': float(row['Kc Initial']),
+            'mid': float(row['Kc Moyen']),
+            'final': float(row['Kc Final'])
+        }

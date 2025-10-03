@@ -1,6 +1,5 @@
 
 def interpreter_ndvi(ndvi_value):
-    """Interpréter la valeur NDVI"""
     if ndvi_value is None or ndvi_value < 0:
         return "Sol nu ou eau"
     elif 0 <= ndvi_value < 0.2:

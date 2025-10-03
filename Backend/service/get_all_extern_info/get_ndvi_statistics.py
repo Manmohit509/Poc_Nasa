@@ -13,9 +13,6 @@ ee.Authenticate()
 ee.Initialize(project=PROJECT)
 
 def get_ndvi_statistics(lat, lon):
-    """
-    Retourne le ndvi
-    """
 
     days_back=7
     point = ee.Geometry.Point([lon, lat], proj='EPSG:4326')

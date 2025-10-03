@@ -7,14 +7,14 @@ from enum import Enum
 
 class DailyInfo(str, Enum):
     DATE = "date"
-    RAIN_SUM = "rain_sum (mm)"
-    HUMIDITY_2M_MEAN = "relative_humidity_2m_mean (%)"
-    SURFACE_PRESSURE_MEAN = "surface_pressure_mean (hPa)"
-    TEMPERATURE_2M_MEAN = "temperature_2m_mean (°C)"
-    SHORTWAVE_RADIATION_SUM = "shortwave_radiation_sum (MJ/m²)"
-    ET0_FAO_SUM = "et0_fao_evapotranspiration_sum (mm)"
-    SUNSHINE_DURATION = "sunshine_duration (h)"
-    WIND_SPEED_10M_MEAN = "wind_speed_10m_mean (m/s)"
+    RAIN_SUM = "rain_sum"
+    HUMIDITY_2M_MEAN = "relative_humidity_2m_mean"
+    SURFACE_PRESSURE_MEAN = "surface_pressure_mean"
+    TEMPERATURE_2M_MEAN = "temperature_2m_mean"
+    SHORTWAVE_RADIATION_SUM = "shortwave_radiation_sum"
+    ET0_FAO_SUM = "et0_fao_evapotranspiration_sum"
+    SUNSHINE_DURATION = "sunshine_duration"
+    WIND_SPEED_10M_MEAN = "wind_speed_10m_mean"
     
 # class weather_info:
     

@@ -44,7 +44,5 @@ def get_ndvi_statistics(lat, lon):
         bestEffort=True
     ).getInfo()
     
-    return {
-        'ndvi': round(result.get('NDVI_max', 0), 3),
-    }
+    return (round(result.get('NDVI_max', 0), 3))
 

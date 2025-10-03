@@ -1,0 +1,81 @@
+"Culture","Kc Initial","Kc Moyen","Kc Final"
+"Broccoli",0.35,0.45,0.40
+"Cabbage",0.40,0.60,0.50
+"Carrots",0.20,0.30,0.40
+"Cauliflower",0.35,0.50,0.40
+"Celery",0.25,0.40,0.70
+"Crucifers1",0.20,0.30,0.20
+"Lettuce",0.20,0.30,0.20
+"Onion (dry)",0.15,0.25,0.70
+"Onion (green)",0.25,0.30,0.10
+"Spinach",0.20,0.25,0.20
+"Radish",0.05,0.10,0.15
+"Eggplant",0.30,0.425,0.40
+"Sweet peppers (bell)",0.275,0.375,0.40
+"Tomato",0.325,0.425,0.50
+"Cantaloupe",0.20,0.525,0.30
+"Cucumber",0.225,0.325,0.45
+"Pumpkin, Winter squash",0.20,0.325,0.325
+"Squash, Zucchini",0.225,0.325,0.25
+"Sweet melons",0.275,0.325,0.45
+"Water melons",0.15,0.25,0.25
+"Beets, table",0.20,0.275,0.225
+"Cassava (year 1)",0.20,0.40,0.90
+"Cassava (year 2)",0.40,0.10,0.55
+"Potato",0.275,0.325,0.425
+"Sweet potato",0.175,0.30,0.55
+"Sugarbeet",0.325,0.45,0.95
+"Beans (green)",0.175,0.275,0.275
+"Beans (dry)",0.20,0.275,0.375
+"Faba bean, broad bean",0.175,0.275,0.35
+"Green gram, cowpeas",0.20,0.30,0.30
+"Groundnut",0.30,0.375,0.375
+"Lentil",0.225,0.325,0.65
+"Peas",0.225,0.275,0.35
+"Soybeans",0.175,0.275,0.575
+"Artichoke",0.30,0.325,0.25
+"Asparagus",0.70,0.30,0.15
+"Cotton",0.3375,0.575,0.525
+"Flax",0.275,0.375,0.50
+"Castor beans",0.225,0.475,0.625
+"Safflower",0.225,0.35,0.50
+"Sesame",0.20,0.30,0.40
+"Sunflower",0.25,0.35,0.45
+"Barley/Oats/Wheat",0.20,0.40,0.575
+"Winter Wheat",0.20,0.125,0.625
+"Grains (small)",0.225,0.325,0.625
+"Maize (grain)",0.25,0.425,0.475
+"Maize (sweet)",0.225,0.25,0.40
+"Millet",0.175,0.275,0.475
+"Sorghum",0.20,0.35,0.425
+"Rice",0.30,1.05,0.95
+"Alfalfa, total season",0.10,0.30,0.00
+"Alfalfa 1st cutting",0.10,0.25,0.20
+"Bermuda for seed",0.10,0.25,0.35
+"Sugarcane, virgin",0.53,0.78,0.26
+"Sugarcane, ratoon",0.30,0.75,0.20
+"Banana 1st yr",0.30,0.25,0.30
+"Banana 2nd yr",0.30,0.15,0.18
+"Pineapple",0.60,0.60,0.60
+"Grapes",0.30,0.50,0.75
+"Hops",0.25,0.40,0.80
+"Citrus",0.60,0.90,0.75
+"Deciduous Orchard",0.23,0.63,0.70
+"Olives",0.30,0.65,0.60
+"Pistachios",0.20,0.60,0.30
+"Walnuts",0.20,0.60,0.55
+"Wetlands (Cattails, Bulrush)",0.10,0.30,0.80
+"Wetlands (short veg.)",0.18,0.60,0.90
+"Agrumes",0.45,0.90,0.75
+"Vineyard (raisin)",0.30,0.60,0.75
+"Apple Orchard",0.30,0.85,0.70
+"Pear Orchard",0.30,0.85,0.70
+"Peach/Nectarine",0.30,0.85,0.70
+"Tomato (greenhouse)",0.60,1.05,0.85
+"Strawberry",0.30,0.70,0.65
+"Pepper (greenhouse)",0.55,1.00,0.85
+"Maize (irrigated)",0.30,1.15,0.80
+"Wheat (irrigated)",0.40,1.15,0.35
+"Rice (paddy)",1.10,1.20,1.05
+"Soybean (irrigated)",0.40,1.05,0.85
+"Sunflower (irrigated)",0.35,1.00,0.75

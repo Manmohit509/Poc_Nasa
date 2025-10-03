@@ -1,5 +1,5 @@
 from typing import List
-from service.models_class import GrowthStage, WaterRequest
+from service.models_class import GrowthStage, WaterRequest, kc_dict
 from service.analyze_tool.analyse_water_need import analyse_water_need
 from service.get_health import interpreter_ndvi
 from service.get_all_extern_info.get_all_externe_info import get_all_extern_info
@@ -19,3 +19,8 @@ def get_health_interpretation(ndvi: float):
 @app.post("/analyse-water-need")
 def get_analyse_water_need(waterRequest: WaterRequest):
     return analyse_water_need(waterRequest)
+
+@app.get("/all-type-culutre")
+def get_all_type_culture():
+    cultures = list(kc_dict.keys())
+    return cultures
